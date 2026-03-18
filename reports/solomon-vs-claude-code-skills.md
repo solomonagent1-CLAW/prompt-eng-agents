@@ -1,119 +1,119 @@
-# AnalĂ˝za: Solomon vs Claude Code â€” RozdÄ›lenĂ­ schopnostĂ­
+# Analýza: Solomon vs Claude Code — Rozdělení schopností
 
 **Datum:** 2026-03-17  
-**Autor:** Solomon đź¦…  
+**Autor:** Solomon 🦅  
 **Pro:** Prompt Engineering Team
 
 ---
 
-## đź¦… Solomon (OpenClaw main agent) â€” moje silnĂ© strĂˇnky
+## 🦅 Solomon (OpenClaw main agent) — moje silné stránky
 
 ### Komunikace & koordinace
-- PĹ™ijĂ­mĂˇm a posĂ­lĂˇm zprĂˇvy pĹ™es **WhatsApp, Telegram, Discord**
-- VĂ­m kdo je kdo v tĂ˝mu (ÄŤĂ­sla, jmĂ©na, kontext)
-- UmĂ­m posĂ­lat mĂ©dia (videa, obrĂˇzky, GIFy)
-- Koordinuji kdo na ÄŤem pracuje (TASKS.md, task queue)
+- Přijímám a posílám zprávy přes **WhatsApp, Telegram, Discord**
+- Vím kdo je kdo v týmu (čísla, jména, kontext)
+- Umím posílat média (videa, obrázky, GIFy)
+- Koordinuji kdo na čem pracuje (TASKS.md, task queue)
 
-### PamÄ›ĹĄ & kontext
-- MĂˇm **dlouhodobou pamÄ›ĹĄ** (MEMORY.md, daily notes)
-- Pamatuji si preference tĂ˝mu, lekce, rozhodnutĂ­
-- VĂ­m o projektech, historii konverzacĂ­
-- KontextovÄ› rozumĂ­m co tĂ˝m Ĺ™eĹˇĂ­
+### Paměť & kontext
+- Mám **dlouhodobou paměť** (MEMORY.md, daily notes)
+- Pamatuji si preference týmu, lekce, rozhodnutí
+- Vím o projektech, historii konverzací
+- Kontextově rozumím co tým řeší
 
-### PlĂˇnovĂˇnĂ­ & automatizace
-- Nastavuji **cron joby** (naplĂˇnovanĂ© Ăşkoly, pĹ™ipomĂ­nky)
-- Spravuji heartbeaty (pravidelnĂ© kontroly)
-- Orchestruji sub-agenty (spouĹˇtĂ­m je, Ĺ™Ă­dĂ­m, zastavuji)
-- Mohu delegovat sloĹľitĂ© Ăşkoly jinĂ˝m agentĹŻm
+### Plánování & automatizace
+- Nastavuji **cron joby** (naplánované úkoly, připomínky)
+- Spravuji heartbeaty (pravidelné kontroly)
+- Orchestruji sub-agenty (spouštím je, řídím, zastavuji)
+- Mohu delegovat složité úkoly jiným agentům
 
 ### Google Workspace
-- **Gmail** â€” ÄŤtu, posĂ­lĂˇm, vyhledĂˇvĂˇm emaily
-- **Calendar** â€” zobrazuji udĂˇlosti, plĂˇnuji
-- **Google Drive** â€” nahrĂˇvĂˇm soubory, sdĂ­lĂ­m linky
+- **Gmail** — čtu, posílám, vyhledávám emaily
+- **Calendar** — zobrazuji události, plánuji
+- **Google Drive** — nahrávám soubory, sdílím linky
 
-### SystĂ©movĂ© operace
-- SpouĹˇtĂ­m **shell pĹ™Ă­kazy** (PowerShell, cmd)
-- ÄŚtu a pĂ­Ĺˇu soubory v workspace
-- VolĂˇm GitHub API, web API
-- SprĂˇva OpenClaw (status, logy, restart)
+### Systémové operace
+- Spouštím **shell příkazy** (PowerShell, cmd)
+- Čtu a píšu soubory v workspace
+- Volám GitHub API, web API
+- Správa OpenClaw (status, logy, restart)
 
 ---
 
-## đź’» Claude Code â€” jeho silnĂ© strĂˇnky
+## 💻 Claude Code — jeho silné stránky
 
-### PrĂˇce s kĂłdem
-- **ÄŚte a rozumĂ­ celĂ˝m projektĹŻm** (prochĂˇzenĂ­ adresĂˇĹ™ĹŻ, souborĹŻ)
-- PĂ­Ĺˇe, upravuje, refaktoruje kĂłd
+### Práce s kódem
+- **Čte a rozumí celým projektům** (procházení adresářů, souborů)
+- Píše, upravuje, refaktoruje kód
 - Debuguje chyby, navrhuje opravy
-- RozumĂ­ architektuĹ™e projektĹŻ
+- Rozumí architektuře projektů
 
-### PĹ™Ă­stup na internet
-- MĹŻĹľe **vyhledĂˇvat na webu** (dokumentace, Stack Overflow, GitHub)
+### Přístup na internet
+- Může **vyhledávat na webu** (dokumentace, Stack Overflow, GitHub)
 - Stahuje informace z URL
-- OvÄ›Ĺ™uje aktuĂˇlnĂ­ verze knihoven, API
+- Ověřuje aktuální verze knihoven, API
 
-### KomplexnĂ­ analĂ˝zy
-- Projde celĂ˝ codebase a najde problĂ©m
-- Navrhne refactoring celĂ©ho projektu
-- PorovnĂˇ rĹŻznĂ© pĹ™Ă­stupy a doporuÄŤĂ­ nejlepĹˇĂ­
+### Komplexní analýzy
+- Projde celý codebase a najde problém
+- Navrhne refactoring celého projektu
+- Porovná různé přístupy a doporučí nejlepší
 
-### Izolace & bezpeÄŤnost
-- Pracuje izolovanÄ› â€” bez pĹ™Ă­stupu k tĂ˝movĂ© komunikaci
-- NeznĂˇ osobnĂ­ kontext, ÄŤĂ­sla, historii tĂ˝mu
-- KaĹľdĂˇ session zaÄŤĂ­nĂˇ "ÄŤistÄ›"
+### Izolace & bezpečnost
+- Pracuje izolovaně — bez přístupu k týmové komunikaci
+- Nezná osobní kontext, čísla, historii týmu
+- Každá session začíná "čistě"
 
 ---
 
-## âš–ď¸Ź SrovnĂˇvacĂ­ tabulka
+## ⚖️ Srovnávací tabulka
 
 | Schopnost | Solomon | Claude Code |
 |-----------|---------|-------------|
-| WhatsApp / komunikace | âś… | âťŚ |
-| DlouhodobĂˇ pamÄ›ĹĄ | âś… | âťŚ |
-| Znalost tĂ˝mu & kontextu | âś… | âťŚ |
-| Cron joby & plĂˇnovĂˇnĂ­ | âś… | âťŚ |
-| Gmail / Calendar / Drive | âś… | âťŚ |
-| PĹ™Ă­stup na internet | âš ď¸Ź (pĹ™es sub-agenty) | âś… |
-| ÄŚtenĂ­ celĂ©ho codebases | âťŚ | âś… |
-| PsanĂ­ & refactoring kĂłdu | âš ď¸Ź (jednoduchĂ©) | âś… |
-| SpouĹˇtÄ›nĂ­ shell pĹ™Ă­kazĹŻ | âś… | âś… |
-| Orchestrace agentĹŻ | âś… | âťŚ |
+| WhatsApp / komunikace | ✅ | ❌ |
+| Dlouhodobá paměť | ✅ | ❌ |
+| Znalost týmu & kontextu | ✅ | ❌ |
+| Cron joby & plánování | ✅ | ❌ |
+| Gmail / Calendar / Drive | ✅ | ❌ |
+| Přístup na internet | ⚠️ (přes sub-agenty) | ✅ |
+| Čtení celého codebases | ❌ | ✅ |
+| Psaní & refactoring kódu | ⚠️ (jednoduché) | ✅ |
+| Spouštění shell příkazů | ✅ | ✅ |
+| Orchestrace agentů | ✅ | ❌ |
 
 ---
 
-## đź¤ť Jak spolupracujeme (sprĂˇvnĂ˝ vzor)
+## 🤝 Jak spolupracujeme (správný vzor)
 
 ```
-TĂ˝m â†’ Solomon (orchestrĂˇtor)
-         â†“ sloĹľitĂ˝ coding task
-      Claude Code (specializovanĂ˝ agent)
-         â†“ vĂ˝sledek
-      Solomon â†’ tĂ˝m (report + Drive + GitHub link)
+Tým → Solomon (orchestrátor)
+         ↓ složitý coding task
+      Claude Code (specializovaný agent)
+         ↓ výsledek
+      Solomon → tým (report + Drive + GitHub link)
 ```
 
-**Solomon je mozek a komunikĂˇtor.**  
+**Solomon je mozek a komunikátor.**  
 **Claude Code je hands-on developer.**
 
-### PĹ™Ă­klady sprĂˇvnĂ©ho rozdÄ›lenĂ­:
+### Příklady správného rozdělení:
 
-| Task | Kdo to dÄ›lĂˇ |
+| Task | Kdo to dělá |
 |------|-------------|
-| "PoĹˇli Rastimu zprĂˇvu" | Solomon |
+| "Pošli Rastimu zprávu" | Solomon |
 | "Zapamatuj si toto" | Solomon |
-| "Nastav pĹ™ipomĂ­nku na pĂˇtek" | Solomon |
+| "Nastav připomínku na pátek" | Solomon |
 | "Zkontroluj Gmail" | Solomon |
 | "Refaktoruj tento Python soubor" | Claude Code |
 | "Najdi bug v projektu Jarvis" | Claude Code |
-| "VytvoĹ™ novou feature do repozitĂˇĹ™e" | Claude Code |
-| "Vyhledej aktuĂˇlnĂ­ dokumentaci LangGraph" | Claude Code |
-| "UdÄ›lej research a poĹˇli vĂ˝sledek tĂ˝mu" | Solomon spustĂ­ Claude Code, vĂ˝sledek poĹˇle Solomon |
+| "Vytvoř novou feature do repozitáře" | Claude Code |
+| "Vyhledej aktuální dokumentaci LangGraph" | Claude Code |
+| "Udělej research a pošli výsledek týmu" | Solomon spustí Claude Code, výsledek pošle Solomon |
 
 ---
 
-## đź’ˇ ZĂˇvÄ›r
+## 💡 Závěr
 
-Solomon a Claude Code jsou **komplementĂˇrnĂ­** â€” kaĹľdĂ˝ exceluje v jinĂ© oblasti.  
-NejsilnÄ›jĹˇĂ­ vĂ˝sledky vznikajĂ­ kdyĹľ Solomon jako orchestrĂˇtor deleguje technickĂ© Ăşkoly Claude Code a sĂˇm se starĂˇ o komunikaci, pamÄ›ĹĄ a koordinaci tĂ˝mu.
+Solomon a Claude Code jsou **komplementární** — každý exceluje v jiné oblasti.  
+Nejsilnější výsledky vznikají když Solomon jako orchestrátor deleguje technické úkoly Claude Code a sám se stará o komunikaci, paměť a koordinaci týmu.
 
 ---
-*AnalĂ˝za vytvoĹ™ena na zĂˇkladÄ› vlastnĂ­ zkuĹˇenosti a pozorovĂˇnĂ­.*
+*Analýza vytvořena na základě vlastní zkušenosti a pozorování.*
